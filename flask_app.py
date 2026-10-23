@@ -28,8 +28,8 @@ def accueil():
 def presentation():
     return "Je m'appelle Ryze et je suis étudiante en informatique."
 
-@app.get("/loisir")
-def loisir():
+@app.get("/loisirs")
+def loisirs():
     return "Aller au parc"
 
 # ---------------------------------------------------------------
