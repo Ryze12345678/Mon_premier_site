@@ -30,7 +30,7 @@ def presentation():
 
 @app.get("/loisir")
 def loisir():
-    return "i like kids"
+    return "Aller au parc"
 
 # ---------------------------------------------------------------
 #  Ne pas modifier : utile seulement pour lancer le site
